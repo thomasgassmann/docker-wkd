@@ -15,3 +15,9 @@ Then run:
 ```sh
 gpg --export yourmail@example.org > hu/hashfromabove
 ```
+
+Build image:
+
+```sh
+make DOMAIN=example.org build
+```
